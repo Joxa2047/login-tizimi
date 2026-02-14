@@ -70,7 +70,7 @@ function checkUsers(arr,inner, name, password ,p){
     for (let i = 0; i < arr.length; i++) {
         if(name == arr[i].login && password == arr[i].password){
             elMatn = "xush kelibsan gan"
-            open("/../login_tizimi/cabinet/cabinet.html", "_parent")
+            open("./cabinet/cabinet.html", "_parent")
             break
 
         }else{
