@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Films</title>
+    <link rel="stylesheet" href="./films_style.css">
+</head>
+<body>
+<main>
+    <section class="films">
+        <div class="container">
+            <div class="films__inner">
+                <header class="films__header">
+                    <img src="/img/logo.png" alt="films header logo" class="films__header-logo">
+                    <ul class="films__header-list">
+                        <li class="films__header-items">
+                            <a href="/../login_tizimi/cabinet/cabinet.html" class="films__header-items_link">
+                                Home
+                            </a>
+
+                        </li>
+                        <li class="films__header-items">
+                            <a href="/../login_tizimi/cabinet/categories/phones.html" class="films__header-items_link">
+                                Phones
+                            </a>
+
+                        </li>
+                        <li class="films__header-items">
+                            <a href="/../login_tizimi/cabinet/categories/laptops.html" class="films__header-items_link">
+                                Films
+                            </a>
+
+                        </li>
+                        <li class="films__header-items">
+                            <a href="/../login_tizimi/cabinet/categories/pokemons.html" class="films__header-items_link">
+                                Pokemon
+                            </a>
+
+                        </li>
+
+                    </ul>
+                    <a href="/index.html" class="films__exit">
+                        Log out
+                    </a>
+                </header>
+
+                <input type="text" class="films__search-input" placeholder="Search here">
+                <select id="" class="films__sort">
+                    <option disabled selected  value="">Sort</option>
+                    <option class="a_to_z" value="A-Z">A-Z</option>
+                    <option value="Z-A">Z-A</option>
+                    <option value="high">Hightto low</option>
+                    <option value="low">Low to hih</option>
+                    <option value="default">Default</option>
+
+                </select>
+
+                <ul class="films__list">
+                    <li class="films__item">
+                        <a href="./films_detail.html" class="films__item-detail">
+                            <i class="films__item-id">287947</i>
+                            <h3 class="films__item-name">Shazam!</h3>
+                            <img src="https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg" alt="films poster" class="films__item-poster">
+
+                            <span class="films__item-description">
+                            A boy is given the ability to become an adult superhero in times of need with a single magic word.
+                        </span>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="films.js"></script>
+</body>
+</html>

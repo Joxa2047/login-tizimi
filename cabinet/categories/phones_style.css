@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+body{
+    background-image: radial-gradient(purple , #37316a, #2b154f);
+
+}
+.phones{
+    font-family: Tahoma;
+}
+.phones__header-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+.phones__inner{
+    position: relative;
+}
+.phones__header-logo{
+    width: 80px;
+
+}
+.phones__header{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgba(7, 24, 22, 0.54);
+    padding: 20px   ;
+    border-radius: 20px;
+    border: solid   1px gray;
+
+}
+
+.phones__exit{
+    padding: 10px;
+    background-color: transparent;
+    color: #d565ff;
+    border: solid 1px white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.phones__header-items_link{
+    color: #82c6e7;
+    text-decoration: none;
+}
+.phones__search-element_input{
+    background-color: rgba(219, 200, 200, 0.33);
+    padding: 10px 5px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.phones__header-items:nth-child(2){
+    border-bottom: solid 2px #b289f1;
+}
+.phones__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    list-style: none;
+    justify-content: start;
+    gap: 20px;
+}
+.phones__item{
+    text-align: start;
+    line-height: 35px;
+
+    background-color: rgba(7, 24, 22, 0.54);
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 8px;
+
+}
+.phones__item:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+.phones__item-price{
+    color: #1ddb1d;
+}
+.phones__item-name{
+    color: rgba(119, 210, 255, 0.55);
+}
+.phones__search-input{
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background-color: rgba(219, 200, 200, 0.33);
+    padding: 10px 5px ;
+    margin-top: 40px;
+    border: solid 1px gray;
+}
+.phones__sort{
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background-color: rgba(219, 200, 200, 0.33);
+    padding: 10px 5px;
+    margin-top: 40px;
+    border: solid 1px gray;
+
+    /*width: 250px;*/
+    outline: none;
+    cursor: pointer;
+}
+.phones__sort option {
+    background: black;
+    color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
+
+}
+.phones__item-link{
+    padding: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.phones__de

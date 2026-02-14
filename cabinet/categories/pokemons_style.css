@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+body{
+    background-image: radial-gradient(purple , #37316a, #2b154f);
+
+}
+.pokemon{
+
+    font-family: Tahoma;
+}
+.pokemon__header-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+.pokemon__inner{
+
+    position: relative;
+    text-align: center;
+}
+.pokemon__header-logo{
+    width: 80px;
+
+}
+.pokemon__header{
+    /*position: fixed;*/
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgba(7, 24, 22, 0.54);
+    padding: 20px   ;
+    border-radius: 20px;
+    border: solid   1px gray;
+
+}
+
+.pokemon__exit{
+    padding: 10px;
+    background-color: transparent;
+    color: #d565ff;
+    border: solid 1px white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.pokemon__header-items_link{
+    color: #82c6e7;
+    text-decoration: none;
+}
+.pokemon__search-element_input{
+    background-color: rgba(219, 200, 200, 0.33);
+    padding: 10px 5px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.pokemon__header-items:nth-child(4){
+    border-bottom: solid 2px #b289f1;
+}
+.pokemon__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    list-style: none;
+    justify-content: start;
+    gap: 20px;
+}
+.pokemon__item{
+    text-align: center;
+    justify-content: center;
+    line-height: 35px;
+
+    background-color: rgba(7, 24, 22, 0.54);
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 8px;
+
+}
+.pokemon__item:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+.pokemon__item-price{
+    color: #1ddb1d;
+}
+.pokemon__item-name{
+    color: rgba(119, 210, 255, 0.55);
+}
+.pokemon__search-input{
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background-color: rgba(219, 200, 200, 0.33);
+    padding: 10px 5px ;
+    margin-top: 40px;
+    border: solid 1px gray;
+}
+.pokemon__item-info{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+
+}
+.pokemon__item-type{
+    justify-content: center;
+    display: flex;
+    /*justify-content: center;*/
+    gap: 50px;
+}
+.pokemon__item-type_1:nth-child(1){
+    padding: 0 10px;
+    background-color: purple;
+    border-radius: 10px;
+    cursor: pointer;
+}.pokemon__item-type_1:nth-child(2){
+     padding: 0 10px;
+     background-color: greenyellow;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+.pokemon__item-id{
+    color: white;
+
+
+}
