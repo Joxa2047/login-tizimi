@@ -70,12 +70,12 @@ function checkUsers(arr,inner, name, password ,p){
     for (let i = 0; i < arr.length; i++) {
         if(name == arr[i].login && password == arr[i].password){
             elMatn = "xush kelibsan gan"
-            open("/cabinet/cabinet.html", "_parent")
+            open("/../login_tizimi/cabinet/cabinet.html", "_parent")
             break
 
         }else{
 
-            elMatn = "Login or password incorrect \"don't click this\" "
+            elMatn = "Pashol nax "
             p.setAttribute("href", "http://localhost:63342/login_tizimi/cabinet/categories/phones.html/gfhj")
 
         }
